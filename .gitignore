@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+.env
+
+# Editors
+.idea/
+.vscode/
+
+# Macs
+.DS_Store
+
+# Eval artifacts (these can grow large)
+outputs/
+metrics.json
+metrics_extra.json

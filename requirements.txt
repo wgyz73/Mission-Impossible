@@ -1,0 +1,15 @@
+torch
+torchvision
+diffusers>=0.30
+transformers>=4.40
+accelerate
+open_clip_torch
+lpips
+scikit-image
+Pillow>=9.0
+numpy
+requests
+huggingface_hub
+# Optional adapters / metrics:
+openai             # GPT-4o / gpt-image-1 backends and VLM judge
+google-genai       # Gemini 2.5 Flash Image backend
